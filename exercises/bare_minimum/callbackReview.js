@@ -15,7 +15,7 @@ var pluckFirstLineFromFile = function (filePath, callback) {
   	} 
   	 //lines.push(data.toString().split('\n'));
      //console.log(lines[0]);
-  	 callback(err, data.toString().split('\n')[0]);
+  	callback(err, data.toString().split('\n')[0]);
     
   });
 };
